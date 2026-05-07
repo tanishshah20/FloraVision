@@ -1,16 +1,55 @@
-# React + Vite
+# Plant Ecommerce App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern React application built with Vite and Tailwind CSS. It features a responsive UI for a plant ecommerce web application.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Ensure you have the following installed on your local machine:
+- [Node.js](https://nodejs.org/) (v16.0.0 or higher recommended)
+- npm (comes with Node.js) or yarn or pnpm
 
-## React Compiler
+## Setup Instructions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone <repository-url>
+   cd Softdev
+   ```
 
-## Expanding the ESLint configuration
+2. **Install project dependencies**:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running the Application
+
+To run the app in development mode with Hot Module Replacement (HMR):
+
+```bash
+npm run dev
+```
+
+The application will typically be available at `http://localhost:5173`. Open this URL in your browser to view it.
+
+## Building for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+This will generate a `dist` directory with your compiled assets. You can preview the production build locally using:
+
+```bash
+npm run preview
+```
+
+## Technologies Used
+- React (v19)
+- Vite
+- Tailwind CSS
+- Heroicons
+
+## Additional Scripts
+- `npm run lint` - Runs ESLint to check for code quality and style issues.

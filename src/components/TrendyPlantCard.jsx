@@ -37,7 +37,7 @@ const TrendyPlantCard = ({
         <span className="text-2xl md:text-3xl font-sans font-semibold text-white mb-4">{price}</span>
         <div className="flex items-center gap-4">
           <Button variant="trend">Explore</Button>
-          <Button variant="icon" aria-label="Add to cart" className="p-2">
+          <Button variant="icon" aria-label="Add to cart" className="!p-2">
             <img src="/bag.png" alt="Cart" className="w-[20px] h-[20px] object-contain invert brightness-0" />
           </Button>            
         </div>
