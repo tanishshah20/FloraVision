@@ -7,15 +7,14 @@ const Footer = () => {
         
         {/* Col 1 */}
         <div className="flex flex-col items-start w-full md:w-[35%] xl:w-[30%]">
-          {/* Boxed Logo Wrapper matching reference */}
-          <div className="flex items-center gap-4 z-50 px-4 py-3 mb-8 w-fit">
+          <div className="flex items-center gap-4 z-50 px-0 py-3 mb-4 md:mb-8 w-fit">
             <img src="/plant.png" alt="logo" className='w-12 h-12 object-contain'/>
             <span className="font-sans font-black text-[32px] leading-none text-white tracking-normal">FloraVision.</span>
           </div>
-          <p className="text-white/75 font-sans text-[15px] leading-relaxed max-w-sm mb-16">
+          <p className="text-white/75 font-sans text-[15px] leading-relaxed max-w-sm mb-10 md:mb-16">
             "From lush indoor greens to vibrant outdoor blooms, our plants are crafted to thrive and elevate your living environment."
           </p>
-          <div className="flex items-center gap-8 text-white font-sans font-bold text-xl tracking-widest mt-auto absolute bottom-0 left-0 md:relative md:bottom-auto">
+          <div className="flex items-center gap-8 text-white font-sans font-bold text-xl tracking-widest relative mt-0 md:mt-auto md:absolute md:bottom-0 md:left-0">
             <a href="#" className="hover:text-brand-accent transition-colors">FB</a>
             <a href="#" className="hover:text-brand-accent transition-colors">TW</a>
             <a href="#" className="hover:text-brand-accent transition-colors">LI</a>
@@ -52,7 +51,7 @@ const Footer = () => {
             </form>
           </div>
           
-          <div className="mt-auto absolute bottom-0 right-0 md:relative md:mt-24 md:bottom-auto w-full md:text-right">
+          <div className="mt-12 w-full text-center md:text-right md:mt-24 md:bottom-0 md:right-0">
             <p className="text-white/75 font-sans text-[17px]">
               FloraVision © all right reserve
             </p>

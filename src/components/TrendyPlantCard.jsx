@@ -15,10 +15,10 @@ const TrendyPlantCard = ({
     : 'flex-col md:flex-row';
 
   return (
-    <div className={`bg-white/5 backdrop-blur-md rounded-[140px] p-6 mt-4 mb-16 flex items-center justify-center border-2 border-white/50 group ${layoutClass}`}>
+    <div className={`bg-white/5 backdrop-blur-md rounded-[60px] md:rounded-[140px] p-4 md:p-6 mt-4 mb-12 flex items-center justify-center border-2 border-white/50 group ${layoutClass}`}>
       
       {/* Image Side */}
-      <div className="w-full md:w-1/2 flex items-end justify-center relative -mt-24 md:-mt-32 mb-auto z-10 pointer-events-none">
+      <div className="w-full md:w-1/2 flex items-end justify-center relative -mt-16 md:-mt-32 mb-auto z-10 pointer-events-none">
         <img 
           src={imageSrc} 
           alt={title} 
@@ -27,7 +27,7 @@ const TrendyPlantCard = ({
       </div>
 
       {/* Text Side */}
-      <div className='w-full md:w-1/2 flex flex-col items-start px-8'>
+      <div className='w-full md:w-1/2 flex flex-col items-start px-4 md:px-8 mt-4 md:mt-0'>
         <h3 className="text-2xl md:text-3xl font-sans font-semibold text-white mb-4">
           {title}
         </h3>

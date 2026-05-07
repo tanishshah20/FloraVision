@@ -9,7 +9,7 @@ const HeroBanner = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start relative z-10 w-full">
         {/* Left Column */}
         <div className="flex flex-col items-start max-w-2xl">
-          <h1 className="font-sans font-semibold text-[60px] md:text-[70px] lg:text-[80px] text-white/75 leading-none mb-6">
+          <h1 className="font-sans font-semibold text-[44px] sm:text-[50px] md:text-[70px] lg:text-[80px] text-white/75 leading-none mb-6">
             Earth's Exhale
           </h1>
           <p className="font-sans font-medium text-[20px] text-white/75 leading-tight mb-8 w-full">
@@ -42,10 +42,10 @@ const HeroBanner = () => {
         </div>
 
         {/* Right Column */}
-        <div className="relative flex items-center justify-center lg:justify-end z-10 mt-44 lg:mt-0">
+        <div className="relative flex items-center justify-center lg:justify-end z-10 mt-20 md:mt-32 lg:mt-0">
           
           {/* Card Wrapper with SVG Background */}
-          <div className="relative flex flex-col p-[26px] w-full sm:w-[512px] min-h-[600px]">
+          <div className="relative flex flex-col p-4 md:p-[26px] w-full sm:w-[512px] min-h-[450px] md:min-h-[600px]">
             {/* SVG Background Layer */}
             <div className="absolute inset-0 z-0 pointer-events-none">
               <svg width="100%" height="100%" viewBox="0 0 512 624" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
